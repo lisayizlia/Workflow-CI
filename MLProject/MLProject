@@ -1,6 +1,4 @@
-name: bank-churn-mlflow-project
-
-conda_env: conda.yaml
+name: mlflow-ci-project
 
 entry_points:
   main:
