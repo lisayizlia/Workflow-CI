@@ -17,10 +17,9 @@ jobs:
       with:
         python-version: "3.10"
 
-    - name: Install MLflow
+    - name: Install dependencies
       run: pip install mlflow scikit-learn pandas numpy
 
-    - name: Run MLProject
-      run: |
-        cd MLProject
-        mlflow run
+    - name: Run MLflow Project
+      run: mlflow run MLProject
+
