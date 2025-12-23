@@ -20,7 +20,7 @@ jobs:
     - name: Install MLflow
       run: pip install mlflow scikit-learn pandas numpy
 
-    - name: Run MLflow Project
+    - name: Run MLProject
       run: |
         cd MLProject
         mlflow run
